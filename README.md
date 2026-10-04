@@ -13,6 +13,17 @@ pip install numpy scipy scikit-learn matplotlib
 python emg_pipeline.py        # start here: it validates before it computes
 ```
 
+## Running a script rewrites its result file
+
+Each script writes its own output into `results/`, so a run leaves the tree
+dirty. That is deliberate: `git diff` after a run is the comparison. On a
+different numpy/scipy build you may see changes in the last few floating-point
+digits of a stored value. A full clean-clone run of
+`exp_step_decomposition.py`, `exp_noise_regime.py` and `verify_stats.py` on
+numpy 2.2.6 / scipy 1.15.3 moved exactly one digit, in the seventeenth
+significant figure of one *p*-value, and no reported number changed. If a run
+moves a digit the paper actually prints, stop and find out why.
+
 ## The flat layout is load-bearing
 
 Every script does `ROOT = os.path.dirname(os.path.abspath(__file__))` and then
