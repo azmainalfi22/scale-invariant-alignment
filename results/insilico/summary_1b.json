@@ -1,0 +1,8 @@
+{
+  "N": 200,
+  "retention_at_1_electrode_off_pct": 82.85131072998047,
+  "retention_at_2_electrodes_off_pct": 55.18074035644531,
+  "retention_at_3_electrodes_off_pct": 35.52666091918945,
+  "electrodes_to_drop_below_50pct_circumferential": 3,
+  "electrodes_to_drop_below_50pct_longitudinal": 7
+}

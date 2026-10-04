@@ -1,0 +1,24 @@
+{
+  "clean": {
+    "mean": 0.9783,
+    "sd": 0.0235
+  },
+  "shift": {
+    "mean": 0.501,
+    "sd": 0.1481
+  },
+  "shift_sia": {
+    "mean": 0.3729,
+    "sd": 0.185
+  },
+  "gain": {
+    "mean": 0.7771,
+    "sd": 0.1052
+  },
+  "gain_sia": {
+    "mean": 0.8208,
+    "sd": 0.1453
+  },
+  "asymmetry_reproduced": true,
+  "n_virtual_subjects": 12
+}

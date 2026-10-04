@@ -1,0 +1,44 @@
+{
+  "features": {
+    "RMS": {
+      "within": 0.9458,
+      "raw": 0.5638,
+      "sia": 0.7338,
+      "interday_drop_pts": 38.2,
+      "relative_drop_pct": 40.4,
+      "sia_gain_pts": 17.0,
+      "p_sia": 0.000139
+    },
+    "MNF": {
+      "within": 0.8819,
+      "raw": 0.4948,
+      "sia": 0.5385,
+      "interday_drop_pts": 38.7,
+      "relative_drop_pct": 43.9,
+      "sia_gain_pts": 4.4,
+      "p_sia": 0.286137
+    },
+    "MDF": {
+      "within": 0.7509,
+      "raw": 0.4289,
+      "sia": 0.436,
+      "interday_drop_pts": 32.2,
+      "relative_drop_pct": 42.9,
+      "sia_gain_pts": 0.7,
+      "p_sia": 0.96525
+    },
+    "LAP": {
+      "within": 0.9408,
+      "raw": 0.4451,
+      "sia": 0.5288,
+      "interday_drop_pts": 49.6,
+      "relative_drop_pct": 52.7,
+      "sia_gain_pts": 8.4,
+      "p_sia": 0.04982
+    }
+  },
+  "H11_supported": false,
+  "H12_supported": true,
+  "n": 20,
+  "K": 16
+}

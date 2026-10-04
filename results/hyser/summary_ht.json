@@ -1,0 +1,15 @@
+{
+  "K": 16,
+  "n": 20,
+  "conc_within": 0.8573,
+  "conc_across": 0.3728,
+  "dist_within": 0.9268,
+  "dist_across": 0.4854,
+  "HT_conc": 0.5714,
+  "HT_dist": 0.4862,
+  "HT_excess": 0.0852,
+  "p": 0.24549,
+  "gap": 0.382,
+  "recovered_pct": 44.5,
+  "residual_pct": 55.5
+}

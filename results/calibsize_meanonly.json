@@ -1,0 +1,40 @@
+{
+ "protocol": "calibration = k distinct gestures from day-2 repetition 0, one recording each, mean over 200 seeded draws; test = all day-2 recordings outside repetition 0; landmark-distributed montage, K=16",
+ "n": 20,
+ "raw": 0.5638,
+ "draws": 200,
+ "eps": 1e-12,
+ "variant": "meanonly",
+ "sizes": {
+  "1": {
+   "mean": 0.472,
+   "gain_pts": -9.2,
+   "p": 0.04844,
+   "n_improved": 4
+  },
+  "2": {
+   "mean": 0.5765,
+   "gain_pts": 1.3,
+   "p": 0.5459,
+   "n_improved": 7
+  },
+  "4": {
+   "mean": 0.6659,
+   "gain_pts": 10.2,
+   "p": 0.01208,
+   "n_improved": 16
+  },
+  "8": {
+   "mean": 0.7209,
+   "gain_pts": 15.7,
+   "p": 0.001283,
+   "n_improved": 18
+  }
+ },
+ "full_repetition": {
+  "mean": 0.7246,
+  "gain_pts": 16.1,
+  "p": 0.001279,
+  "n_improved": 18
+ }
+}

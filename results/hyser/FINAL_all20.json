@@ -1,0 +1,94 @@
+{
+  "exp2_variability_tolerance": {
+    "n": 20,
+    "dominant_array_counts": {
+      "ED": 7,
+      "FD": 2,
+      "FP": 2,
+      "EP": 9
+    },
+    "tol_offsets": [
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "retention_pct_mean": [
+      28.5,
+      30.0,
+      39.8,
+      44.6,
+      100.0,
+      54.1,
+      44.0,
+      38.1,
+      37.2
+    ],
+    "retention_pct_sd": [
+      20.2,
+      22.1,
+      30.7,
+      36.6,
+      0.0,
+      33.2,
+      32.1,
+      26.2,
+      24.1
+    ],
+    "retention_at_1_2_3_off": [
+      54.1,
+      44.0,
+      38.1
+    ]
+  },
+  "exp3_dense_negative": {
+    "8": {
+      "fixed_mean": 0.894,
+      "fixed_sd": 0.084,
+      "indiv_mean": 0.788,
+      "indiv_sd": 0.108,
+      "delta_mean": -0.107,
+      "p_wilcoxon": 0.0013
+    },
+    "16": {
+      "fixed_mean": 0.946,
+      "fixed_sd": 0.053,
+      "indiv_mean": 0.905,
+      "indiv_sd": 0.074,
+      "delta_mean": -0.041,
+      "p_wilcoxon": 0.0054
+    },
+    "32": {
+      "fixed_mean": 0.969,
+      "fixed_sd": 0.044,
+      "indiv_mean": 0.952,
+      "indiv_sd": 0.044,
+      "delta_mean": -0.017,
+      "p_wilcoxon": 0.0247
+    }
+  },
+  "exp4_crossday": {
+    "n_paired": 19,
+    "same_channel_count": 2,
+    "day1ch_retention_on_day2_mean_pct": 73.6,
+    "day1ch_retention_on_day2_sd_pct": 23.9,
+    "map_spearman_mean": 0.804,
+    "map_spearman_sd": 0.102
+  },
+  "exp5_sparse_positive": {
+    "n": 20,
+    "signal_ratio_mean": 2.58,
+    "signal_ratio_sd": 2.24,
+    "signal_ratio_median": 1.74,
+    "p_signal": 0.0,
+    "acc_indiv_mean": 0.789,
+    "acc_fixed_mean": 0.648,
+    "acc_delta_mean": 0.142,
+    "p_decode": 0.0025
+  }
+}

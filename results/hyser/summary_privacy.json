@@ -1,0 +1,46 @@
+{
+  "responder": {
+    "n": 20,
+    "improved": 18,
+    "worse": 2,
+    "mean_gain_pts": 17.0,
+    "median_gain_pts": 11.41,
+    "ci95_pts": [
+      10.34,
+      25.16
+    ],
+    "rank_biserial": 0.971,
+    "per_subject_delta": [
+      0.075,
+      0.4,
+      0.1,
+      0.725,
+      0.225,
+      0.1282,
+      0.075,
+      -0.0256,
+      0.1,
+      0.2564,
+      0.075,
+      0.05,
+      0.175,
+      0.0769,
+      0.1795,
+      0.375,
+      0.2564,
+      0.1282,
+      -0.025,
+      0.05
+    ]
+  },
+  "identity": {
+    "n_identities": 20,
+    "chance": 0.05,
+    "raw": 0.1967,
+    "sia": 0.4502,
+    "delta_pts": 25.35,
+    "gesture_raw": 0.5638,
+    "gesture_sia": 0.7338,
+    "verdict": "NO privacy benefit (identity not reduced)"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "conc32_vs_dist16": {
+    "n": 20,
+    "diff": -0.35,
+    "ci90": [
+      -10.2,
+      9.5
+    ],
+    "tightest": 10.2,
+    "tost_p": 0.0532,
+    "equivalent": false
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "n_participants": 20,
+  "budgets": [
+    4,
+    8,
+    16,
+    32
+  ],
+  "n_cells": 320,
+  "regeneration_ok": true,
+  "models": {
+    "SIA-corrected": {
+      "geometry (dist-conc, within)": {
+        "estimate_pts": 7.45,
+        "se": 2.19,
+        "ci95": [
+          3.15,
+          11.74
+        ],
+        "p": 0.0006791287681720736
+      },
+      "session (across-within, conc)": {
+        "estimate_pts": -40.69,
+        "se": 2.19,
+        "ci95": [
+          -44.98,
+          -36.39
+        ],
+        "p": 6.202323162274613e-77
+      },
+      "geometry x session INTERACTION": {
+        "estimate_pts": 5.53,
+        "se": 3.1,
+        "ci95": [
+          -0.54,
+          11.61
+        ],
+        "p": 0.07416554461969445
+      },
+      "_n_cells": 320
+    },
+    "raw": {
+      "geometry (dist-conc, within)": {
+        "estimate_pts": 7.45,
+        "se": 2.19,
+        "ci95": [
+          3.15,
+          11.74
+        ],
+        "p": 0.0006798959057746197
+      },
+      "session (across-within, conc)": {
+        "estimate_pts": -45.87,
+        "se": 2.19,
+        "ci95": [
+          -50.16,
+          -41.57
+        ],
+        "p": 3.150155174564072e-97
+      },
+      "geometry x session INTERACTION": {
+        "estimate_pts": 4.52,
+        "se": 3.1,
+        "ci95": [
+          -1.55,
+          10.6
+        ],
+        "p": 0.14465000150978755
+      },
+      "_n_cells": 320
+    }
+  }
+}

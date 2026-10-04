@@ -1,0 +1,1428 @@
+{
+ "pooled_mixed_model": {
+  "n_obs": 212,
+  "n_participants": 63,
+  "sia_effect_pts": 12.218368479467246,
+  "se_pts": 1.5727777545220794,
+  "ci95_pts": [
+   9.135724080603971,
+   15.301012878330521
+  ],
+  "p": 7.932361260894287e-15,
+  "dataset_offset_pts": -6.618971202076549,
+  "wrist_offset_pts": -9.550273597811215,
+  "formula": "acc ~ is_sia + is_grab + is_wrist, (1|participant), REML"
+ },
+ "exact_tests_table4": {
+  "Displacement, 1 electrode": {
+   "n_nonzero": 18,
+   "reported_p": 0.0002,
+   "exact_p": 7.62939453125e-06,
+   "closed_form": 7.62939453125e-06
+  },
+  "Displacement, 2 electrodes": {
+   "n_nonzero": 19,
+   "reported_p": 0.0001,
+   "exact_p": 3.814697265625e-06,
+   "closed_form": 3.814697265625e-06
+  },
+  "Per-channel gain drift": {
+   "n_nonzero": 20,
+   "reported_p": 0.0001,
+   "exact_p": 1.9073486328125e-06,
+   "closed_form": 1.9073486328125e-06
+  }
+ },
+ "power": {
+  "observed_sd_pts": 17.39866629099747,
+  "mde_at_observed_sd": {
+   "n20": 11.417120266872178,
+   "n43": 7.587568971827292,
+   "n63": 6.226652914522414
+  },
+  "mde_grid": {
+   "11": {
+    "n20": 7.218272989153006,
+    "n43": 4.79710670313197,
+    "n63": 3.936691520728042
+   },
+   "15": {
+    "n20": 9.84309953066319,
+    "n43": 6.5415091406345045,
+    "n63": 5.368215710083694
+   },
+   "20": {
+    "n20": 13.124132707550922,
+    "n43": 8.722012187512673,
+    "n63": 7.157620946778258
+   },
+   "23": {
+    "n20": 15.09275261368356,
+    "n43": 10.030314015639574,
+    "n63": 8.231264088794997
+   },
+   "17": {
+    "n20": 11.155512801418284,
+    "n43": 7.413710359385772,
+    "n63": 6.08397780476152
+   }
+  },
+  "tost_margin_pts": 10.0,
+  "margin_below_mde_at_n20": true
+ },
+ "bca": {
+  "mean_diff_pts": 17.0,
+  "percentile_ci": [
+   10.403766025641023,
+   25.102644230769222
+  ],
+  "bca_ci": [
+   11.304487179487179,
+   27.21571750405639
+  ],
+  "bias_z0": 0.07149977955531345,
+  "acceleration": 0.06519450138149446,
+  "B": 20000
+ },
+ "fdr_secondary": {
+  "n_harvested": 220,
+  "n_secondary": 206,
+  "n_survive_bh_q05": 99,
+  "n_nominally_significant": 118,
+  "dropped_by_bh": [
+   {
+    "key": "verified_stats.json/grabmyo_n8/sia_vs_raw/p",
+    "p": 0.024467523139596277,
+    "q": 0.05037821782178218
+   },
+   {
+    "key": "hyser/FINAL_all20.json/exp3_dense_negative/32/p_wilcoxon",
+    "p": 0.0247,
+    "q": 0.05037821782178218
+   },
+   {
+    "key": "hyser/summary_adapt.json/methods/unitnorm/p_vs_raw",
+    "p": 0.028261,
+    "q": 0.055445554690113655
+   },
+   {
+    "key": "hyser/summary_mvc.json/methods/unitnorm/p_vs_raw",
+    "p": 0.028261,
+    "q": 0.055445554690113655
+   },
+   {
+    "key": "verified_stats.json/interday/unitnorm/p",
+    "p": 0.028261083701271523,
+    "q": 0.055445554690113655
+   },
+   {
+    "key": "verified_stats.json/classical/unitnorm/p",
+    "p": 0.028261083701271523,
+    "q": 0.055445554690113655
+   },
+   {
+    "key": "uda_baselines.json/methods/mean/p_vs_raw",
+    "p": 0.030964110554617775,
+    "q": 0.06017553560614398
+   },
+   {
+    "key": "adabn_uda_extended.json/mlp_step1_on_top_of_adabn/p",
+    "p": 0.03276824951171875,
+    "q": 0.06308653644312208
+   },
+   {
+    "key": "identifiability_grabmyo.json/bands/W/methods/unitnorm/vs_raw_p",
+    "p": 0.037966100787683386,
+    "q": 0.0724168218728035
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/sa/p_vs_sia",
+    "p": 0.03939152377688059,
+    "q": 0.07444636603704038
+   },
+   {
+    "key": "new_experiments.json/exp4_grabmyo_unitnorm_full_n/forearm/p_unitnorm",
+    "p": 0.04013,
+    "q": 0.07515254545454546
+   },
+   {
+    "key": "hyser/summary_rank_law.json/H9/32/p_raw_dist_vs_conc",
+    "p": 0.04379,
+    "q": 0.08109527408409922
+   },
+   {
+    "key": "grabmyo_full.json/sites/W/unitnorm_vs_raw/p",
+    "p": 0.04409063445349084,
+    "q": 0.08109527408409922
+   },
+   {
+    "key": "new_experiments.json/exp4_grabmyo_unitnorm_full_n/wrist/p_unitnorm",
+    "p": 0.0461,
+    "q": 0.08404070796460178
+   },
+   {
+    "key": "hyser/summary_rank_law.json/H9/8/p_raw_dist_vs_conc",
+    "p": 0.04858,
+    "q": 0.08697389830508476
+   },
+   {
+    "key": "corruption_stats.json/comparisons/shift2+SIA vs shift2/p",
+    "p": 0.04931941316901299,
+    "q": 0.08697389830508476
+   },
+   {
+    "key": "posterior_intervals.json/results[0]/p_wilcoxon",
+    "p": 0.0494,
+    "q": 0.08697389830508476
+   },
+   {
+    "key": "posterior_intervals.json/results[7]/p_wilcoxon",
+    "p": 0.0498,
+    "q": 0.08697389830508476
+   },
+   {
+    "key": "hyser/summary_h11_h12.json/features/LAP/p_sia",
+    "p": 0.04982,
+    "q": 0.08697389830508476
+   }
+  ],
+  "members": [
+   {
+    "key": "adabn_uda_extended.json/methods/whiten/p_vs_raw",
+    "p": 0.07993442301803552,
+    "q": 0.11846396504831164,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/whiten/p_vs_sia",
+    "p": 0.008317261995089118,
+    "q": 0.020949053289192773,
+    "kept": true
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/sa/p_vs_raw",
+    "p": 0.06409546968034197,
+    "q": 0.1015666673396188,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/sa/p_vs_sia",
+    "p": 0.03939152377688059,
+    "q": 0.07444636603704038,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/riemann/p_vs_raw",
+    "p": 0.07993442301803552,
+    "q": 0.11846396504831164,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/riemann/p_vs_sia",
+    "p": 0.008317261995089118,
+    "q": 0.020949053289192773,
+    "kept": true
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/ot/p_vs_raw",
+    "p": 0.506606820695747,
+    "q": 0.5641135408828318,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/ot/p_vs_sia",
+    "p": 0.006768303339654376,
+    "q": 0.018345664315378967,
+    "kept": true
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/adabn_feat/p_vs_raw",
+    "p": 0.0792170396478046,
+    "q": 0.11846396504831164,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/adabn_feat/p_vs_sia",
+    "p": 0.008001512634903668,
+    "q": 0.020865974683544303,
+    "kept": true
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/mlp_src/p_vs_raw",
+    "p": 0.2365641314785195,
+    "q": 0.30081611780601863,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/mlp_src/p_vs_sia",
+    "p": 3.814697265625e-06,
+    "q": 4.3657090928819445e-05,
+    "kept": true
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/mlp_adabn/p_vs_raw",
+    "p": 0.9198555816956472,
+    "q": 0.9288741960784314,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/mlp_adabn/p_vs_sia",
+    "p": 0.013616561889648438,
+    "q": 0.030489258144212803,
+    "kept": true
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/mlp_src_un/p_vs_raw",
+    "p": 0.8518990893461073,
+    "q": 0.8863192545722126,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/mlp_src_un/p_vs_sia",
+    "p": 1.9073486328125e-06,
+    "q": 2.472401289653386e-05,
+    "kept": true
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/mlp_adabn_un/p_vs_raw",
+    "p": 0.00485992431640625,
+    "q": 0.013909232876712328,
+    "kept": true
+   },
+   {
+    "key": "adabn_uda_extended.json/methods/mlp_adabn_un/p_vs_sia",
+    "p": 0.08935980398153491,
+    "q": 0.12963464521264922,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/mlp_adabn_effect/p",
+    "p": 0.11253190846138743,
+    "q": 0.15558102780567656,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/mlp_step1_on_top_of_adabn/p",
+    "p": 0.03276824951171875,
+    "q": 0.06308653644312208,
+    "kept": false
+   },
+   {
+    "key": "adabn_uda_extended.json/sia_vs_best_other/p",
+    "p": 0.08935980398153491,
+    "q": 0.12963464521264922,
+    "kept": false
+   },
+   {
+    "key": "corruption_stats.json/comparisons/clean+SIA vs clean/p",
+    "p": 0.4093553268516461,
+    "q": 0.4732475977653631,
+    "kept": false
+   },
+   {
+    "key": "corruption_stats.json/comparisons/shift1 vs clean/p",
+    "p": 0.0001899879575125705,
+    "q": 0.001185985431745137,
+    "kept": true
+   },
+   {
+    "key": "corruption_stats.json/comparisons/shift1+SIA vs shift1/p",
+    "p": 0.004144593252105117,
+    "q": 0.012743077760203793,
+    "kept": true
+   },
+   {
+    "key": "corruption_stats.json/comparisons/shift2 vs clean/p",
+    "p": 0.00012613359857111296,
+    "q": 0.0008661173768549757,
+    "kept": true
+   },
+   {
+    "key": "corruption_stats.json/comparisons/shift2+SIA vs shift2/p",
+    "p": 0.04931941316901299,
+    "q": 0.08697389830508476,
+    "kept": false
+   },
+   {
+    "key": "corruption_stats.json/comparisons/gain vs clean/p",
+    "p": 8.794879347050151e-05,
+    "q": 0.0006251034482758621,
+    "kept": true
+   },
+   {
+    "key": "corruption_stats.json/comparisons/gain+SIA vs gain/p",
+    "p": 8.720229793087963e-05,
+    "q": 0.0006251034482758621,
+    "kept": true
+   },
+   {
+    "key": "corruption_stats.json/comparisons/gain+SIA vs clean/p",
+    "p": 0.23273783772535095,
+    "q": 0.29778878615790244,
+    "kept": false
+   },
+   {
+    "key": "grabmyo_full.json/sites/F/unitnorm_vs_raw/p",
+    "p": 0.11645849728547536,
+    "q": 0.15993633627205284,
+    "kept": false
+   },
+   {
+    "key": "grabmyo_full.json/sites/F/sia_vs_raw/p",
+    "p": 6.985868038211511e-10,
+    "q": 2.398481359785952e-08,
+    "kept": true
+   },
+   {
+    "key": "grabmyo_full.json/sites/W/unitnorm_vs_raw/p",
+    "p": 0.04409063445349084,
+    "q": 0.08109527408409922,
+    "kept": false
+   },
+   {
+    "key": "grabmyo_full.json/sites/W/sia_vs_raw/p",
+    "p": 5.701350362755539e-10,
+    "q": 2.398481359785952e-08,
+    "kept": true
+   },
+   {
+    "key": "grabmyo_sia.json/methods/unitnorm/p_vs_raw",
+    "p": 0.407574,
+    "q": 0.4732475977653631,
+    "kept": false
+   },
+   {
+    "key": "grabmyo_sia.json/methods/sia/p_vs_raw",
+    "p": 0.021281,
+    "q": 0.04566547916666667,
+    "kept": true
+   },
+   {
+    "key": "grabmyo_wrist.json/F/p",
+    "p": 8e-06,
+    "q": 7.864295238095238e-05,
+    "kept": true
+   },
+   {
+    "key": "grabmyo_wrist.json/W/p",
+    "p": 0.00117,
+    "q": 0.004322232553298806,
+    "kept": true
+   },
+   {
+    "key": "hierarchical.json/models/SIA-corrected/geometry (dist-conc, within)/p",
+    "p": 0.0006791287681720736,
+    "q": 0.0029799692891398226,
+    "kept": true
+   },
+   {
+    "key": "hierarchical.json/models/SIA-corrected/session (across-within, conc)/p",
+    "p": 6.202323162274613e-77,
+    "q": 6.388392857142853e-75,
+    "kept": true
+   },
+   {
+    "key": "hierarchical.json/models/SIA-corrected/geometry x session INTERACTION/p",
+    "p": 0.07416554461969445,
+    "q": 0.11487294880945155,
+    "kept": false
+   },
+   {
+    "key": "hierarchical.json/models/raw/geometry (dist-conc, within)/p",
+    "p": 0.0006798959057746197,
+    "q": 0.0029799692891398226,
+    "kept": true
+   },
+   {
+    "key": "hierarchical.json/models/raw/session (across-within, conc)/p",
+    "p": 3.150155174564072e-97,
+    "q": 6.48931965960199e-95,
+    "kept": true
+   },
+   {
+    "key": "hierarchical.json/models/raw/geometry x session INTERACTION/p",
+    "p": 0.14465000150978755,
+    "q": 0.19349285916244308,
+    "kept": false
+   },
+   {
+    "key": "hyser/FINAL_all20.json/exp3_dense_negative/8/p_wilcoxon",
+    "p": 0.0013,
+    "q": 0.00439016393442623,
+    "kept": true
+   },
+   {
+    "key": "hyser/FINAL_all20.json/exp3_dense_negative/16/p_wilcoxon",
+    "p": 0.0054,
+    "q": 0.014832000000000001,
+    "kept": true
+   },
+   {
+    "key": "hyser/FINAL_all20.json/exp3_dense_negative/32/p_wilcoxon",
+    "p": 0.0247,
+    "q": 0.05037821782178218,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_adapt.json/methods/unitnorm/p_vs_raw",
+    "p": 0.028261,
+    "q": 0.055445554690113655,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_adapt.json/methods/log_unitnorm/p_vs_raw",
+    "p": 0.22719,
+    "q": 0.29250712500000003,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_adapt.json/methods/chan_gain/p_vs_raw",
+    "p": 0.722682,
+    "q": 0.7634486769230769,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_adapt.json/methods/chan_gain_unitnorm/p_vs_raw",
+    "p": 0.022168,
+    "q": 0.046127353535353535,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_adapt.json/methods/coral_diag/p_vs_raw",
+    "p": 0.079217,
+    "q": 0.11846396504831164,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_adapt.json/methods/rank/p_vs_raw",
+    "p": 0.903869,
+    "q": 0.921767396039604,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_calibsize.json/calibration_size/1/p",
+    "p": 0.000219,
+    "q": 0.0012889714285714286,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_calibsize.json/calibration_size/2/p",
+    "p": 0.003654,
+    "q": 0.01158036923076923,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_calibsize.json/calibration_size/4/p",
+    "p": 0.368277,
+    "q": 0.4436553333333334,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_calibsize.json/electrode_budget/8/p",
+    "p": 0.000677,
+    "q": 0.0029799692891398226,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_calibsize.json/electrode_budget/32/p",
+    "p": 0.000269,
+    "q": 0.001460723816171611,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_calibsize.json/electrode_budget/64/p",
+    "p": 0.001265,
+    "q": 0.00439016393442623,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_controlled.json/classifier_robustness/svm/p",
+    "p": 0.000832,
+    "q": 0.0035706666666666664,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_controlled.json/classifier_robustness/knn/p",
+    "p": 0.001277,
+    "q": 0.00439016393442623,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_diversity.json/p/sia_gain_concentrated_p",
+    "p": 0.400835,
+    "q": 0.4732475977653631,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_diversity.json/p/sia_gain_distributed_p",
+    "p": 0.094742,
+    "q": 0.13290503401360543,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_diversity.json/p/dist_sia_vs_conc_sia_p",
+    "p": 0.011187,
+    "q": 0.02561266666666667,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_h11_h12.json/features/MNF/p_sia",
+    "p": 0.286137,
+    "q": 0.3487823786982248,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_h11_h12.json/features/MDF/p_sia",
+    "p": 0.96525,
+    "q": 0.96525,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_h11_h12.json/features/LAP/p_sia",
+    "p": 0.04982,
+    "q": 0.08697389830508476,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_ht.json/p",
+    "p": 0.24549,
+    "q": 0.30835939024390246,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_mvc.json/methods/peak_norm/p_vs_raw",
+    "p": 0.919856,
+    "q": 0.9288741960784314,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_mvc.json/methods/mean_norm/p_vs_raw",
+    "p": 0.090635,
+    "q": 0.1305651048951049,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_mvc.json/methods/median_norm/p_vs_raw",
+    "p": 0.722682,
+    "q": 0.7634486769230769,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_mvc.json/methods/zscore_chan/p_vs_raw",
+    "p": 0.079217,
+    "q": 0.11846396504831164,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_mvc.json/methods/unitnorm/p_vs_raw",
+    "p": 0.028261,
+    "q": 0.055445554690113655,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_mvc.json/methods/SIA_vs_best_classical/p",
+    "p": 0.008002,
+    "q": 0.020865974683544303,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_rank_law.json/H7/p",
+    "p": 0.40224,
+    "q": 0.4732475977653631,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_rank_law.json/H9/4/p_raw_dist_vs_conc",
+    "p": 0.17684,
+    "q": 0.23351948717948717,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_rank_law.json/H9/4/p_sia_dist_vs_conc",
+    "p": 0.09484,
+    "q": 0.13290503401360543,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_rank_law.json/H9/8/p_raw_dist_vs_conc",
+    "p": 0.04858,
+    "q": 0.08697389830508476,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_rank_law.json/H9/8/p_sia_dist_vs_conc",
+    "p": 0.01054,
+    "q": 0.024956781609195407,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_rank_law.json/H9/16/p_raw_dist_vs_conc",
+    "p": 0.1401,
+    "q": 0.18987490532002005,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_rank_law.json/H9/16/p_sia_dist_vs_conc",
+    "p": 0.01119,
+    "q": 0.02561266666666667,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_rank_law.json/H9/32/p_raw_dist_vs_conc",
+    "p": 0.04379,
+    "q": 0.08109527408409922,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_rank_law.json/H9/32/p_sia_dist_vs_conc",
+    "p": 0.05094,
+    "q": 0.0881818487394958,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_supervised.json/methods/sup_finetune/p_vs_raw",
+    "p": 0.00018,
+    "q": 0.0011587500000000003,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_supervised.json/methods/sup_plus_SIA/p_vs_raw",
+    "p": 8.8e-05,
+    "q": 0.0006251034482758621,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_supervised.json/methods/SIA_vs_sup_finetune_p",
+    "p": 0.448677,
+    "q": 0.5050890144765576,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_supervised.json/methods/combined_vs_sup_p",
+    "p": 0.000289,
+    "q": 0.0014883499999999998,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_td.json/results/K8|MAV/p",
+    "p": 0.005096,
+    "q": 0.01418616216216216,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_td.json/results/K8|WL/p",
+    "p": 0.016005,
+    "q": 0.03545193548387096,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_td.json/results/K8|ZC/p",
+    "p": 0.41122,
+    "q": 0.4732475977653631,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_td.json/results/K8|SSC/p",
+    "p": 0.445928,
+    "q": 0.5050890144765576,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_td.json/results/K8|TD4 (MAV+WL+ZC+SSC)/p",
+    "p": 0.016592,
+    "q": 0.0363611914893617,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_td.json/results/K16|MAV/p",
+    "p": 0.000863,
+    "q": 0.003628122448979592,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_td.json/results/K16|WL/p",
+    "p": 0.001604,
+    "q": 0.005244825396825397,
+    "kept": true
+   },
+   {
+    "key": "hyser/summary_td.json/results/K16|ZC/p",
+    "p": 0.708833,
+    "q": 0.7634486769230769,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_td.json/results/K16|SSC/p",
+    "p": 0.0733,
+    "q": 0.11487294880945155,
+    "kept": false
+   },
+   {
+    "key": "hyser/summary_td.json/results/K16|TD4 (MAV+WL+ZC+SSC)/p",
+    "p": 0.004929,
+    "q": 0.013909232876712328,
+    "kept": true
+   },
+   {
+    "key": "identifiability_grabmyo.json/bands/F/methods/unitnorm/vs_raw_p",
+    "p": 0.6400946847042244,
+    "q": 0.7051310430431562,
+    "kept": false
+   },
+   {
+    "key": "identifiability_grabmyo.json/bands/F/methods/zscore/vs_raw_p",
+    "p": 2.680442810020074e-07,
+    "q": 4.601426823867793e-06,
+    "kept": true
+   },
+   {
+    "key": "identifiability_grabmyo.json/bands/F/methods/sia/vs_raw_p",
+    "p": 4.487341744348228e-08,
+    "q": 1.0271026659285945e-06,
+    "kept": true
+   },
+   {
+    "key": "identifiability_grabmyo.json/bands/W/methods/unitnorm/vs_raw_p",
+    "p": 0.037966100787683386,
+    "q": 0.0724168218728035,
+    "kept": false
+   },
+   {
+    "key": "identifiability_grabmyo.json/bands/W/methods/zscore/vs_raw_p",
+    "p": 2.778781412312857e-08,
+    "q": 7.155362136705608e-07,
+    "kept": true
+   },
+   {
+    "key": "identifiability_grabmyo.json/bands/W/methods/sia/vs_raw_p",
+    "p": 8.827060337166315e-08,
+    "q": 1.818374429456261e-06,
+    "kept": true
+   },
+   {
+    "key": "new_experiments.json/exp1_accuracy_oracle_shift/p_vs_raw",
+    "p": 0.0009787,
+    "q": 0.0038771835426021804,
+    "kept": true
+   },
+   {
+    "key": "new_experiments.json/exp1_accuracy_oracle_shift/p_sia_vs_oracle",
+    "p": 0.2065,
+    "q": 0.2692341772151899,
+    "kept": false
+   },
+   {
+    "key": "new_experiments.json/exp2_clean_plus_sia/p",
+    "p": 0.4094,
+    "q": 0.4732475977653631,
+    "kept": false
+   },
+   {
+    "key": "new_experiments.json/exp3_cross_gesture_calibration/p",
+    "p": 0.3789,
+    "q": 0.45117572254335264,
+    "kept": false
+   },
+   {
+    "key": "new_experiments.json/exp4_grabmyo_unitnorm_full_n/forearm/p_unitnorm",
+    "p": 0.04013,
+    "q": 0.07515254545454546,
+    "kept": false
+   },
+   {
+    "key": "new_experiments.json/exp4_grabmyo_unitnorm_full_n/forearm/p_sia",
+    "p": 8.458e-06,
+    "q": 7.919763636363637e-05,
+    "kept": true
+   },
+   {
+    "key": "new_experiments.json/exp4_grabmyo_unitnorm_full_n/wrist/p_unitnorm",
+    "p": 0.0461,
+    "q": 0.08404070796460178,
+    "kept": false
+   },
+   {
+    "key": "new_experiments.json/exp4_grabmyo_unitnorm_full_n/wrist/p_sia",
+    "p": 0.00117,
+    "q": 0.004322232553298806,
+    "kept": true
+   },
+   {
+    "key": "posterior_intervals.json/results[0]/p_wilcoxon",
+    "p": 0.0494,
+    "q": 0.08697389830508476,
+    "kept": false
+   },
+   {
+    "key": "posterior_intervals.json/results[1]/p_wilcoxon",
+    "p": 0.0586,
+    "q": 0.09505196850393702,
+    "kept": false
+   },
+   {
+    "key": "posterior_intervals.json/results[2]/p_wilcoxon",
+    "p": 0.0545,
+    "q": 0.0912850880576263,
+    "kept": false
+   },
+   {
+    "key": "posterior_intervals.json/results[3]/p_wilcoxon",
+    "p": 0.0948,
+    "q": 0.13290503401360543,
+    "kept": false
+   },
+   {
+    "key": "posterior_intervals.json/results[4]/p_wilcoxon",
+    "p": 0.0105,
+    "q": 0.024956781609195407,
+    "kept": true
+   },
+   {
+    "key": "posterior_intervals.json/results[5]/p_wilcoxon",
+    "p": 0.0089,
+    "q": 0.022089156626506026,
+    "kept": true
+   },
+   {
+    "key": "posterior_intervals.json/results[6]/p_wilcoxon",
+    "p": 0.0585,
+    "q": 0.09505196850393702,
+    "kept": false
+   },
+   {
+    "key": "posterior_intervals.json/results[7]/p_wilcoxon",
+    "p": 0.0498,
+    "q": 0.08697389830508476,
+    "kept": false
+   },
+   {
+    "key": "posterior_intervals.json/interaction/SIA-corrected/p",
+    "p": 0.07416554461969445,
+    "q": 0.11487294880945155,
+    "kept": false
+   },
+   {
+    "key": "posterior_intervals.json/interaction/raw/p",
+    "p": 0.14465000150978755,
+    "q": 0.19349285916244308,
+    "kept": false
+   },
+   {
+    "key": "representation_sweep.json/grid/RMS_K8/p_sia_vs_raw",
+    "p": 0.00026945390783748163,
+    "q": 0.001460723816171611,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/grid/RMS_K32/p_sia_vs_raw",
+    "p": 0.00020300453895026214,
+    "q": 0.0012299686771692353,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/grid/RMS_K64/p_sia_vs_raw",
+    "p": 0.0012646947848272668,
+    "q": 0.00439016393442623,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/grid/Hudgins_K8/p_sia_vs_raw",
+    "p": 0.021735068374339583,
+    "q": 0.046127353535353535,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/grid/Hudgins_K16/p_sia_vs_raw",
+    "p": 0.004928572023863432,
+    "q": 0.013909232876712328,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/grid/Hudgins_K32/p_sia_vs_raw",
+    "p": 0.004823373838167124,
+    "q": 0.013909232876712328,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/grid/Hudgins_K64/p_sia_vs_raw",
+    "p": 0.007734465570103632,
+    "q": 0.02069220659014738,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/grid/RMS+MNF+MDF_K8/p_sia_vs_raw",
+    "p": 0.02060031422604563,
+    "q": 0.044670155058583155,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/grid/RMS+MNF+MDF_K16/p_sia_vs_raw",
+    "p": 0.00401319310121624,
+    "q": 0.012526026952280991,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/grid/RMS+MNF+MDF_K32/p_sia_vs_raw",
+    "p": 0.00023456379504335051,
+    "q": 0.0013422261605258391,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/grid/RMS+MNF+MDF_K64/p_sia_vs_raw",
+    "p": 0.0011130354392137054,
+    "q": 0.004322232553298806,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/classifiers_hudgins_K16/LDA/p",
+    "p": 0.004928572023863432,
+    "q": 0.013909232876712328,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/classifiers_hudgins_K16/SVM/p",
+    "p": 0.012920718864119229,
+    "q": 0.029249099846247923,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/classifiers_hudgins_K16/kNN/p",
+    "p": 0.001174975839731714,
+    "q": 0.004322232553298806,
+    "kept": true
+   },
+   {
+    "key": "representation_sweep.json/classifiers_hudgins_K16/RF/p",
+    "p": 0.004284116436211994,
+    "q": 0.01297835273323045,
+    "kept": true
+   },
+   {
+    "key": "sia_plus_shift.json/full_oracle_raw/p",
+    "p": 0.0009787065253170552,
+    "q": 0.0038771835426021804,
+    "kept": true
+   },
+   {
+    "key": "sia_plus_shift.json/full_oracle_sia/p",
+    "p": 0.0006483852534615971,
+    "q": 0.0029799692891398226,
+    "kept": true
+   },
+   {
+    "key": "sia_plus_shift.json/halfsplit_oracle_raw/p",
+    "p": 0.05854776137962577,
+    "q": 0.09505196850393702,
+    "kept": false
+   },
+   {
+    "key": "sia_plus_shift.json/halfsplit_oracle_sia/p",
+    "p": 0.05450517393732056,
+    "q": 0.0912850880576263,
+    "kept": false
+   },
+   {
+    "key": "sia_plus_shift.json/sia_oracle_vs_raw_oracle/p",
+    "p": 0.00028791380091943705,
+    "q": 0.0014883499999999998,
+    "kept": true
+   },
+   {
+    "key": "step_decomposition_grabmyo.json/F/step1_vs_raw/p",
+    "p": 0.2706,
+    "q": 0.3337940119760479,
+    "kept": false
+   },
+   {
+    "key": "step_decomposition_grabmyo.json/F/step2_vs_raw/p",
+    "p": 8.017e-06,
+    "q": 7.864295238095238e-05,
+    "kept": true
+   },
+   {
+    "key": "step_decomposition_grabmyo.json/F/sia_vs_raw/p",
+    "p": 2.04e-06,
+    "q": 2.472401289653386e-05,
+    "kept": true
+   },
+   {
+    "key": "step_decomposition_grabmyo.json/F/sia_vs_step2/p",
+    "p": 0.2849,
+    "q": 0.3487823786982248,
+    "kept": false
+   },
+   {
+    "key": "step_decomposition_grabmyo.json/F/step2_vs_step1/p",
+    "p": 3.172e-05,
+    "q": 0.00025132,
+    "kept": true
+   },
+   {
+    "key": "step_decomposition_grabmyo.json/W/step1_vs_raw/p",
+    "p": 0.05957,
+    "q": 0.09587046875,
+    "kept": false
+   },
+   {
+    "key": "step_decomposition_grabmyo.json/W/step2_vs_raw/p",
+    "p": 1.704e-08,
+    "q": 5.014628571428571e-07,
+    "kept": true
+   },
+   {
+    "key": "step_decomposition_grabmyo.json/W/sia_vs_raw/p",
+    "p": 7.108e-07,
+    "q": 1.0459363508121583e-05,
+    "kept": true
+   },
+   {
+    "key": "step_decomposition_grabmyo.json/W/sia_vs_step2/p",
+    "p": 0.003451,
+    "q": 0.01110790625,
+    "kept": true
+   },
+   {
+    "key": "step_decomposition_grabmyo.json/W/step2_vs_step1/p",
+    "p": 1.229e-07,
+    "q": 2.301581818181818e-06,
+    "kept": true
+   },
+   {
+    "key": "timegap_grabmyo.json/clustering_correction/F/pair_level/p",
+    "p": 6.985868038211511e-10,
+    "q": 2.398481359785952e-08,
+    "kept": true
+   },
+   {
+    "key": "timegap_grabmyo.json/clustering_correction/F/participant_level/p",
+    "p": 2.040331161364445e-06,
+    "q": 2.472401289653386e-05,
+    "kept": true
+   },
+   {
+    "key": "timegap_grabmyo.json/clustering_correction/W/pair_level/p",
+    "p": 5.701350362755539e-10,
+    "q": 2.398481359785952e-08,
+    "kept": true
+   },
+   {
+    "key": "timegap_grabmyo.json/clustering_correction/W/participant_level/p",
+    "p": 7.108305296781657e-07,
+    "q": 1.0459363508121583e-05,
+    "kept": true
+   },
+   {
+    "key": "timegap_grabmyo.json/by_gap/F/gaps/7/p_sia_vs_raw",
+    "p": 2.0066423462627218e-05,
+    "q": 0.00016534732933204827,
+    "kept": true
+   },
+   {
+    "key": "timegap_grabmyo.json/by_gap/F/gaps/21/p_sia_vs_raw",
+    "p": 0.0009393139219232666,
+    "q": 0.003869973358323858,
+    "kept": true
+   },
+   {
+    "key": "timegap_grabmyo.json/by_gap/F/gaps/28/p_sia_vs_raw",
+    "p": 7.5478254178474905e-06,
+    "q": 7.864295238095238e-05,
+    "kept": true
+   },
+   {
+    "key": "timegap_grabmyo.json/by_gap/W/gaps/7/p_sia_vs_raw",
+    "p": 1.2020077049035007e-05,
+    "q": 0.00010453368252083054,
+    "kept": true
+   },
+   {
+    "key": "timegap_grabmyo.json/by_gap/W/gaps/21/p_sia_vs_raw",
+    "p": 0.00042276290736836033,
+    "q": 0.002025329277160052,
+    "kept": true
+   },
+   {
+    "key": "timegap_grabmyo.json/by_gap/W/gaps/28/p_sia_vs_raw",
+    "p": 1.2178681458737539e-05,
+    "q": 0.00010453368252083054,
+    "kept": true
+   },
+   {
+    "key": "timegap_grabmyo.json/horizon_dependence/F/raw_p",
+    "p": 0.06282549496585577,
+    "q": 0.10032598420904099,
+    "kept": false
+   },
+   {
+    "key": "timegap_grabmyo.json/horizon_dependence/F/sia_p",
+    "p": 0.37805144644355204,
+    "q": 0.45117572254335264,
+    "kept": false
+   },
+   {
+    "key": "timegap_grabmyo.json/horizon_dependence/F/gain_p",
+    "p": 0.8414117984093804,
+    "q": 0.8798519313316363,
+    "kept": false
+   },
+   {
+    "key": "timegap_grabmyo.json/horizon_dependence/W/raw_p",
+    "p": 0.25619151778864535,
+    "q": 0.317924413641331,
+    "kept": false
+   },
+   {
+    "key": "timegap_grabmyo.json/horizon_dependence/W/sia_p",
+    "p": 0.10006530224173571,
+    "q": 0.13928008284998347,
+    "kept": false
+   },
+   {
+    "key": "timegap_grabmyo.json/horizon_dependence/W/gain_p",
+    "p": 0.8757673554401078,
+    "q": 0.9065732423148855,
+    "kept": false
+   },
+   {
+    "key": "tost_supplementary.json/conc32_vs_dist16/tost_p",
+    "p": 0.0532,
+    "q": 0.09084012285760328,
+    "kept": false
+   },
+   {
+    "key": "uda_baselines.json/methods/mean/p_vs_raw",
+    "p": 0.030964110554617775,
+    "q": 0.06017553560614398,
+    "kept": false
+   },
+   {
+    "key": "uda_baselines.json/methods/mean/p_vs_sia",
+    "p": 0.0014706161394767645,
+    "q": 0.004886240721487314,
+    "kept": true
+   },
+   {
+    "key": "uda_baselines.json/methods/coral/p_vs_raw",
+    "p": 0.3434895061015316,
+    "q": 0.41622846033479716,
+    "kept": false
+   },
+   {
+    "key": "uda_baselines.json/methods/coral/p_vs_sia",
+    "p": 0.0003668141903553,
+    "q": 0.0017991362669807574,
+    "kept": true
+   },
+   {
+    "key": "uda_baselines.json/methods/coral_un/p_vs_raw",
+    "p": 0.009376374716187906,
+    "q": 0.022994442756365578,
+    "kept": true
+   },
+   {
+    "key": "uda_baselines.json/methods/coral_un/p_vs_sia",
+    "p": 0.4511474692411971,
+    "q": 0.5050890144765576,
+    "kept": false
+   },
+   {
+    "key": "uda_baselines.json/methods/pseudo/p_vs_raw",
+    "p": 0.6693751711266651,
+    "q": 0.7334642832558139,
+    "kept": false
+   },
+   {
+    "key": "uda_baselines.json/methods/pseudo/p_vs_sia",
+    "p": 0.00013162704518922692,
+    "q": 0.0008746829454509918,
+    "kept": true
+   },
+   {
+    "key": "uda_baselines.json/methods/pseudo_trans/p_vs_raw",
+    "p": 0.18058189537250835,
+    "q": 0.23694184997921477,
+    "kept": false
+   },
+   {
+    "key": "uda_baselines.json/methods/pseudo_trans/p_vs_sia",
+    "p": 0.00033683844544690506,
+    "q": 0.0016924077990746937,
+    "kept": true
+   },
+   {
+    "key": "uda_baselines.json/sia_vs_best_baseline/p",
+    "p": 0.4511474692411971,
+    "q": 0.5050890144765576,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/interday/unitnorm/p",
+    "p": 0.028261083701271523,
+    "q": 0.055445554690113655,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/interday/log_unitnorm/p",
+    "p": 0.2557087922025303,
+    "q": 0.317924413641331,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/interday/chan_gain/p",
+    "p": 0.7226818776960366,
+    "q": 0.7634486769230769,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/interday/chan_gain_unitnorm/p",
+    "p": 0.022167905752988798,
+    "q": 0.046127353535353535,
+    "kept": true
+   },
+   {
+    "key": "verified_stats.json/interday/coral_diag/p",
+    "p": 0.07919088009357776,
+    "q": 0.11846396504831164,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/interday/rank/p",
+    "p": 0.9038688939507324,
+    "q": 0.921767396039604,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/classical/log/p",
+    "p": 0.8959900287788956,
+    "q": 0.921767396039604,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/classical/unitnorm/p",
+    "p": 0.028261083701271523,
+    "q": 0.055445554690113655,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/classical/proportion/p",
+    "p": 0.053357547892087354,
+    "q": 0.09084012285760328,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/classical/calib_scale/p",
+    "p": 0.7226818776960366,
+    "q": 0.7634486769230769,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/spatial/shift_vs_raw/p",
+    "p": 0.2395213480091859,
+    "q": 0.3027079612876828,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/spatial/shift_oracle_vs_raw/p",
+    "p": 0.17277059821742557,
+    "q": 0.22961769827606238,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/spatial/shift_oracle_vs_est/p",
+    "p": 0.7211030967617672,
+    "q": 0.7634486769230769,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/spatial/rank_vs_raw/p",
+    "p": 0.05849669503598671,
+    "q": 0.09505196850393702,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/spatial/rank_oracle_vs_raw/p",
+    "p": 0.08349382746551659,
+    "q": 0.12285520327068869,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/spatial/stale_vs_raw/p",
+    "p": 0.21453736472050733,
+    "q": 0.27795407001524847,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/geometry/dist_vs_conc_raw/p",
+    "p": 0.14010187188661674,
+    "q": 0.18987490532002005,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/geometry/dist_vs_conc_sia/p",
+    "p": 0.011187132801806695,
+    "q": 0.02561266666666667,
+    "kept": true
+   },
+   {
+    "key": "verified_stats.json/geometry/sia_on_conc/p",
+    "p": 0.42209481142973415,
+    "q": 0.4830640619695847,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/geometry/sia_on_dist/p",
+    "p": 0.09474215155603803,
+    "q": 0.13290503401360543,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/within_k8/amp_vs_fixed/p",
+    "p": 0.009971847124885023,
+    "q": 0.024167064796780175,
+    "kept": true
+   },
+   {
+    "key": "verified_stats.json/within_k8/var_vs_fixed/p",
+    "p": 0.0012817877432004892,
+    "q": 0.00439016393442623,
+    "kept": true
+   },
+   {
+    "key": "verified_stats.json/within_k8/perarray_vs_fixed/p",
+    "p": 0.9477786425200834,
+    "q": 0.9524019529714008,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/sparse_pipeline/indiv_vs_fixed/p",
+    "p": 0.7088326810853274,
+    "q": 0.7634486769230769,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/sparse_pipeline/indiv_sia_vs_fixed/p",
+    "p": 0.7474259875363838,
+    "q": 0.7855599664923217,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/grabmyo_n8/unitnorm_vs_raw/p",
+    "p": 0.5691066757256662,
+    "q": 0.630300941932727,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/grabmyo_n8/sia_vs_raw/p",
+    "p": 0.024467523139596277,
+    "q": 0.05037821782178218,
+    "kept": false
+   },
+   {
+    "key": "verified_stats.json/grabmyo_n8/sia_vs_unitnorm/p",
+    "p": 0.008338943542300036,
+    "q": 0.020949053289192773,
+    "kept": true
+   }
+  ]
+ }
+}

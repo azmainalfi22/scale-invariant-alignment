@@ -1,0 +1,88 @@
+{
+  "controlled": {
+    "clean": {
+      "mean": 0.9458,
+      "sd": 0.0533
+    },
+    "shift1": {
+      "mean": 0.6737,
+      "sd": 0.2864
+    },
+    "shift2": {
+      "mean": 0.4595,
+      "sd": 0.2057
+    },
+    "shift1_sia": {
+      "mean": 0.3436,
+      "sd": 0.1378
+    },
+    "shift2_sia": {
+      "mean": 0.2869,
+      "sd": 0.0997
+    },
+    "gain": {
+      "mean": 0.5184,
+      "sd": 0.1127
+    },
+    "gain_sia": {
+      "mean": 0.4093,
+      "sd": 0.103
+    },
+    "_invalid_reason": "INVALID -- DO NOT CITE. This run used only 2 calibration samples for SIA. The calibration-size ablation (summary_calibsize.json) independently shows 2 samples are catastrophic (0.402 vs 0.564 raw), so the SIA rows here are artefacts of an under-determined moment estimate, not a property of the method. Superseded by the 'controlled_v2' block, which is what Table IV of the paper reports. Retained only for provenance.",
+    "_superseded_by": "controlled_v2"
+  },
+  "classifier_robustness": {
+    "lda": {
+      "raw": 0.5638,
+      "sia": 0.7338,
+      "gain_pts": 17.0,
+      "p": 0.000139
+    },
+    "svm": {
+      "raw": 0.5015,
+      "sia": 0.7007,
+      "gain_pts": 19.9,
+      "p": 0.000832
+    },
+    "knn": {
+      "raw": 0.4904,
+      "sia": 0.7082,
+      "gain_pts": 21.8,
+      "p": 0.001277
+    }
+  },
+  "controlled_v2": {
+    "clean": {
+      "mean": 0.9286,
+      "sd": 0.076
+    },
+    "shift1": {
+      "mean": 0.6101,
+      "sd": 0.2611
+    },
+    "shift1_oracle": {
+      "mean": 0.9286,
+      "sd": 0.076
+    },
+    "shift1_sia": {
+      "mean": 0.7914,
+      "sd": 0.2352
+    },
+    "shift2": {
+      "mean": 0.4092,
+      "sd": 0.2369
+    },
+    "shift2_oracle": {
+      "mean": 0.9286,
+      "sd": 0.076
+    },
+    "gain": {
+      "mean": 0.5223,
+      "sd": 0.1985
+    },
+    "gain_sia": {
+      "mean": 0.9524,
+      "sd": 0.0765
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "_note": "Student-t posterior on paired differences (flat prior on mean, Jeffreys on log sigma). P(direction) = posterior probability the effect has the claimed sign.",
+  "results": [
+    {
+      "label": "SIA repairs 2-electrode displacement",
+      "n": 20,
+      "mean_pts": 13.04,
+      "ci95": [
+        0.62,
+        25.45
+      ],
+      "p_wilcoxon": 0.0494,
+      "posterior_prob_claimed_direction": 0.9797,
+      "prob_effect_exceeds_5pts": 0.904
+    },
+    {
+      "label": "debiased shift oracle, raw features",
+      "n": 20,
+      "mean_pts": 8.74,
+      "ci95": [
+        0.79,
+        16.7
+      ],
+      "p_wilcoxon": 0.0586,
+      "posterior_prob_claimed_direction": 0.9836,
+      "prob_effect_exceeds_5pts": 0.832
+    },
+    {
+      "label": "debiased shift oracle, on top of SIA",
+      "n": 20,
+      "mean_pts": 8.21,
+      "ci95": [
+        0.19,
+        16.23
+      ],
+      "p_wilcoxon": 0.0545,
+      "posterior_prob_claimed_direction": 0.9773,
+      "prob_effect_exceeds_5pts": 0.793
+    },
+    {
+      "label": "distributed - concentrated at K=4 (SIA)",
+      "n": 20,
+      "mean_pts": 10.26,
+      "ci95": [
+        0.03,
+        20.49
+      ],
+      "p_wilcoxon": 0.0948,
+      "posterior_prob_claimed_direction": 0.9753,
+      "prob_effect_exceeds_5pts": 0.852
+    },
+    {
+      "label": "distributed - concentrated at K=8 (SIA)",
+      "n": 20,
+      "mean_pts": 14.95,
+      "ci95": [
+        4.69,
+        25.22
+      ],
+      "p_wilcoxon": 0.0105,
+      "posterior_prob_claimed_direction": 0.9967,
+      "prob_effect_exceeds_5pts": 0.972
+    },
+    {
+      "label": "distributed - concentrated at K=16 (SIA)",
+      "n": 20,
+      "mean_pts": 13.8,
+      "ci95": [
+        3.2,
+        24.4
+      ],
+      "p_wilcoxon": 0.0089,
+      "posterior_prob_claimed_direction": 0.9933,
+      "prob_effect_exceeds_5pts": 0.951
+    },
+    {
+      "label": "distributed - concentrated at K=32 (SIA)",
+      "n": 20,
+      "mean_pts": 12.91,
+      "ci95": [
+        1.52,
+        24.31
+      ],
+      "p_wilcoxon": 0.0585,
+      "posterior_prob_claimed_direction": 0.9858,
+      "prob_effect_exceeds_5pts": 0.919
+    },
+    {
+      "label": "SIA gain on Laplacian montage",
+      "n": 20,
+      "mean_pts": 8.37,
+      "ci95": [
+        -2.14,
+        18.88
+      ],
+      "p_wilcoxon": 0.0498,
+      "posterior_prob_claimed_direction": 0.9441,
+      "prob_effect_exceeds_5pts": 0.745
+    }
+  ],
+  "interaction": {
+    "SIA-corrected": {
+      "estimate_pts": 5.53,
+      "se": 3.1,
+      "p": 0.07416554461969445,
+      "posterior_prob_positive": 0.963,
+      "posterior_prob_exceeds_5pts": 0.568
+    },
+    "raw": {
+      "estimate_pts": 4.52,
+      "se": 3.1,
+      "p": 0.14465000150978755,
+      "posterior_prob_positive": 0.928,
+      "posterior_prob_exceeds_5pts": 0.438
+    }
+  }
+}

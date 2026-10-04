@@ -1,0 +1,26 @@
+{
+  "F": {
+    "site": "forearm band (2x8)",
+    "n_pairs": 40,
+    "n_participants": 20,
+    "within_ceiling": 0.8082,
+    "raw": 0.5154,
+    "raw_sd": 0.181,
+    "sia": 0.6357,
+    "sia_sd": 0.15,
+    "p": 8e-06,
+    "gap_recovered_pct": 41.1
+  },
+  "W": {
+    "site": "wrist band (2x6)",
+    "n_pairs": 40,
+    "n_participants": 20,
+    "within_ceiling": 0.8318,
+    "raw": 0.4364,
+    "raw_sd": 0.1801,
+    "sia": 0.5246,
+    "sia_sd": 0.1824,
+    "p": 0.00117,
+    "gap_recovered_pct": 22.3
+  }
+}

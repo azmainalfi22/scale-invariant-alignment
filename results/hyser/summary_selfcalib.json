@@ -1,0 +1,85 @@
+{
+  "per_subject": {
+    "s01_ses1": {
+      "8": {
+        "fixed": 0.875,
+        "indiv_amp": 0.688,
+        "indiv_perarray": 0.854,
+        "indiv_var": 0.667
+      },
+      "16": {
+        "fixed": 0.958,
+        "indiv_amp": 0.833,
+        "indiv_perarray": 0.875,
+        "indiv_var": 0.875
+      },
+      "32": {
+        "fixed": 0.958,
+        "indiv_amp": 0.917,
+        "indiv_perarray": 0.938,
+        "indiv_var": 0.917
+      }
+    },
+    "s02_ses1": {
+      "8": {
+        "fixed": 0.958,
+        "indiv_amp": 0.833,
+        "indiv_perarray": 0.896,
+        "indiv_var": 0.812
+      },
+      "16": {
+        "fixed": 0.979,
+        "indiv_amp": 0.917,
+        "indiv_perarray": 0.958,
+        "indiv_var": 0.896
+      },
+      "32": {
+        "fixed": 1.0,
+        "indiv_amp": 0.979,
+        "indiv_perarray": 0.979,
+        "indiv_var": 0.958
+      }
+    },
+    "s03_ses1": {
+      "8": {
+        "fixed": 1.0,
+        "indiv_amp": 0.646,
+        "indiv_perarray": 0.708,
+        "indiv_var": 0.688
+      },
+      "16": {
+        "fixed": 0.979,
+        "indiv_amp": 0.875,
+        "indiv_perarray": 0.875,
+        "indiv_var": 0.896
+      },
+      "32": {
+        "fixed": 1.0,
+        "indiv_amp": 0.979,
+        "indiv_perarray": 0.979,
+        "indiv_var": 0.938
+      }
+    }
+  },
+  "mean": {
+    "8": {
+      "fixed": 0.944,
+      "indiv_amp": 0.722,
+      "indiv_perarray": 0.819,
+      "indiv_var": 0.722
+    },
+    "16": {
+      "fixed": 0.972,
+      "indiv_amp": 0.875,
+      "indiv_perarray": 0.903,
+      "indiv_var": 0.889
+    },
+    "32": {
+      "fixed": 0.986,
+      "indiv_amp": 0.958,
+      "indiv_perarray": 0.965,
+      "indiv_var": 0.938
+    }
+  },
+  "note": "8 gestures,6 reps,LOO-rep CV,selection train-only,no labels used for selection"
+}

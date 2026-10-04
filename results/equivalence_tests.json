@@ -1,0 +1,83 @@
+{
+  "SIA_vs_supervised": {
+    "n": 20,
+    "diff_pts": -3.63,
+    "ci90_t": [
+      -9.0,
+      1.7
+    ],
+    "ci90_boot": [
+      -8.8,
+      1.2
+    ],
+    "smallest_margin_pts": 9.0,
+    "tost_p_at_margin": 0.026654338768667712,
+    "margin_pts": 10.0,
+    "equivalent_at_margin": true
+  },
+  "SIA_gain_MNF": {
+    "n": 20,
+    "diff_pts": 4.37,
+    "ci90_t": [
+      -2.0,
+      10.8
+    ],
+    "ci90_boot": [
+      -1.6,
+      10.3
+    ],
+    "smallest_margin_pts": 10.8,
+    "tost_p_at_margin": 0.07217873740891956,
+    "margin_pts": 10.0,
+    "equivalent_at_margin": false
+  },
+  "SIA_gain_MDF": {
+    "n": 20,
+    "diff_pts": 0.71,
+    "ci90_t": [
+      -4.2,
+      5.6
+    ],
+    "ci90_boot": [
+      -3.8,
+      5.3
+    ],
+    "smallest_margin_pts": 5.6,
+    "tost_p_at_margin": 0.001888226254779426,
+    "margin_pts": 10.0,
+    "equivalent_at_margin": true
+  },
+  "cross_vocabulary": {
+    "n": 20,
+    "diff_pts": -5.52,
+    "ci90_t": [
+      -13.0,
+      1.9
+    ],
+    "ci90_boot": [
+      -12.6,
+      1.2
+    ],
+    "smallest_margin_pts": 13.0,
+    "tost_p_at_margin": 0.15566822512804848,
+    "margin_pts": 10.0,
+    "equivalent_at_margin": false
+  },
+  "SIA_vs_raw_POSITIVE_CONTROL": {
+    "n": 20,
+    "diff_pts": 7.5,
+    "ci90_t": [
+      -0.1,
+      15.1
+    ],
+    "ci90_boot": [
+      0.5,
+      14.6
+    ],
+    "smallest_margin_pts": 15.1,
+    "tost_p_at_margin": 0.2868601226977622,
+    "margin_pts": 10.0,
+    "equivalent_at_margin": false
+  },
+  "_note": "TOST margin 10 accuracy points, chosen to exceed the ~11-point minimum detectable effect at n=20; 'smallest_margin_pts' is the tightest equivalence claim the data support at 90% confidence."
+}

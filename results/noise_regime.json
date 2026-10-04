@@ -1,0 +1,29 @@
+{
+ "definition": "signal = RMS spread of per-gesture mean unit-normalised RMS vectors about their centroid; noise = RMS distance of single repetitions from their own gesture mean; both within session",
+ "hyser": {
+  "day1": {
+   "median_snr": 4.26,
+   "min": 1.21,
+   "max": 6.76,
+   "n": 20
+  },
+  "day2": {
+   "median_snr": 4.54,
+   "min": 2.47,
+   "max": 6.65,
+   "n": 20
+  }
+ },
+ "grabmyo_F": {
+  "median_snr": 3.06,
+  "min": 1.99,
+  "max": 4.88,
+  "n": 43
+ },
+ "grabmyo_W": {
+  "median_snr": 2.78,
+  "min": 1.7,
+  "max": 4.57,
+  "n": 43
+ }
+}

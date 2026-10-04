@@ -1,0 +1,26 @@
+{
+  "n": 20,
+  "K": 16,
+  "methods": {
+    "SIA": {
+      "mean": 0.7338,
+      "sd": 0.2229,
+      "p_vs_raw": 0.000139
+    },
+    "sup_finetune": {
+      "mean": 0.7701,
+      "sd": 0.1498,
+      "p_vs_raw": 0.00018
+    },
+    "sup_plus_SIA": {
+      "mean": 0.8899,
+      "sd": 0.1105,
+      "p_vs_raw": 8.8e-05
+    },
+    "raw": {
+      "mean": 0.5638
+    },
+    "SIA_vs_sup_finetune_p": 0.448677,
+    "combined_vs_sup_p": 0.000289
+  }
+}

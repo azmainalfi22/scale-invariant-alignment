@@ -1,0 +1,81 @@
+{
+  "subjects": {
+    "s01_ses1": {
+      "array": "EP",
+      "row": 0,
+      "col": 4,
+      "rms": 0.16126460661619674,
+      "n_records": 48
+    },
+    "s02_ses1": {
+      "array": "FP",
+      "row": 0,
+      "col": 6,
+      "rms": 0.36042550540035784,
+      "n_records": 48
+    },
+    "s03_ses1": {
+      "array": "FP",
+      "row": 1,
+      "col": 3,
+      "rms": 0.770201645798879,
+      "n_records": 48
+    }
+  },
+  "pairwise_optimum_displacement_electrodes": [
+    [
+      "s01_ses1",
+      "s02_ses1",
+      "EP",
+      "FP",
+      2.0
+    ],
+    [
+      "s01_ses1",
+      "s03_ses1",
+      "EP",
+      "FP",
+      1.41
+    ],
+    [
+      "s02_ses1",
+      "s03_ses1",
+      "FP",
+      "FP",
+      3.16
+    ]
+  ],
+  "real_tolerance_offset": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "real_retention_across_cols_pct": [
+    17.6,
+    17.8,
+    17.9,
+    17.0,
+    100.0,
+    57.1,
+    47.2,
+    18.3,
+    14.3
+  ],
+  "real_retention_along_rows_pct": [
+    NaN,
+    NaN,
+    NaN,
+    42.8,
+    100.0,
+    33.3,
+    16.5,
+    17.2,
+    17.3
+  ]
+}
