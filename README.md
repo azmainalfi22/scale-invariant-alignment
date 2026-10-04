@@ -125,8 +125,9 @@ Not included, and not needed: no analysis script reads them. Only
 
 ## Licence and citation
 
-No licence file is included yet, so default copyright applies. If you want this
-reusable, add one (MIT or BSD-3-Clause is usual for research code).
+Released under the MIT License; see `LICENSE`. The cached feature matrices under
+`data/` are derived features from two publicly released datasets, which carry
+their own terms and are cited below.
 
 Please cite the paper if you use this:
 
