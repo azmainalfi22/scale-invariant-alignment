@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-The cached feature matrices under data/ are derived per-channel features, not
-raw recordings. They come from two publicly released datasets, which carry
-their own terms and should be cited independently:
-
-  Hyser    PhysioNet, doi:10.13026/ym7v-bh53
-  GRABMyo  PhysioNet, doi:10.13026/rrvt-9s97

@@ -125,9 +125,12 @@ Not included, and not needed: no analysis script reads them. Only
 
 ## Licence and citation
 
-Released under the MIT License; see `LICENSE`. The cached feature matrices under
-`data/` are derived features from two publicly released datasets, which carry
-their own terms and are cited below.
+Released under the MIT License; see `LICENSE`. The licence covers the analysis
+code and the stored result files. The cached feature matrices under `data/` are
+derived per-channel features, not raw recordings; they come from two publicly
+released datasets that carry their own terms (Hyser, PhysioNet
+doi:10.13026/ym7v-bh53; GRABMyo, PhysioNet doi:10.13026/rrvt-9s97) and should be
+cited independently.
 
 Please cite the paper if you use this:
 
